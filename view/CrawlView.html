@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CrawlView</title>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="jquery.dataTables.min.css">
+    <link rel="stylesheet" href="crawl_view.css">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="jquery.dataTables.min.js"></script>
+
+</head>
+<body">
+	<CENTER>
+		<h1 style="margin: auto;">Crawl View</h1>
+	</CENTER>
+
+	<div class="container" id="container" style="display: block;" >
+		<div class="tab">
+		  <button class="tablinks active"  >Type Exercise</button>
+		
+		</div>
+		<div id="Domain" class="tabcontent" style="display: block;">
+			<div class="domain_type" >
+				<span class="domain_span">
+				PROBLEM SOLVING
+				</span>
+				<div id="problem" style="margin-top: 10px;">
+
+				</div>
+			</div>
+			<div class="domain_type" >
+				<span class="domain_span">
+				LANGUAGE
+				</span>
+				<div id="language" style="margin-top: 10px;">
+
+				</div>
+			</div>
+			<div class="domain_type" id="">
+				<span class="domain_span">
+				SPECIALIZED SKILLS
+				</span>
+				<div id="special" style="margin-top: 10px;">
+
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+	<div class="container" id="container2" style="display: none;">
+		<div class="tab">
+		  <button class="tablinks" id="home_btn" onclick="home()">Trang chủ</button>
+		  <button class="tablinks2 active" id="tab_ex"></button>
+		</div>
+
+		<div id="ex_list" class="tabcontent2" style="display: block;">
+			<div  >
+				<div style="margin-top: 10px;">
+					<table id="example" class="hover">
+						<thead>
+							<th style="width: 64px"> STT </th>
+							<th style="width: 568px">Bài tập</th>
+							<th style="width: 136px">Độ khó</th>
+							<th style="width: 114px">Điểm</th>
+							<th style="width: 152px">Tỷ lệ đạt</th>
+							<th style="width: 144px">Type</th>
+							<th style="width: 80px">Leaderboard</th>
+						</thead>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="container3" style="display: none;">
+		<div class="tab">
+		  <button class="tablinks" id="domain_tab" onclick="domain_func(this)"></button>
+		  <button class="tablinks2 active" id="tab_problem"></button>
+		</div>
+
+		<div id="ex_list" class="tabcontent2" style="display: block;">
+			<div>
+				<strong id="problem_tit" ></strong>
+				<div id="problem_dt"></div>
+			</div>
+			<div>
+				<strong id="constrainst_tit" ></strong>
+				<div id="constrainst"></div>
+			</div>
+			<div>
+				<strong id="input_tit" ></strong>
+				<div id="input"></div>
+			</div>
+			<div>
+				<strong id="output_tit"></strong>
+				<div id="output"></div>
+			</div>
+			<div>
+				<p><a id="show_sample" style="cursor: pointer;" onclick="show_sample()"></a></p>
+			</div>
+			<div id="sample"></div>
+		</div>
+	</div>
+	<div class="container" id="container4" style="display: none;">
+		<div class="tab">
+		  <button class="tablinks" id="domain2" onclick="domain_return()"></button>
+		  <button class="tablinks2 active" id="tab_leader"></button>
+		</div>
+
+		<div id="ld_list" class="tabcontent2" style="display: block;">
+			<div  >
+				<div style="margin-top: 10px;">
+					<table id="example2" class="hover">
+						<thead>
+							<th style="width: 64px"> STT </th>
+							<th style="width: 568px"> Username</th>
+							<th style="width: 136px"> Country</th>
+							<th style="width: 114px"> Score</th>
+							<th style="width: 152px">Rank</th>
+						</thead>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="data.js"></script>
+<script>
+//show all domain
+$(document).ready( function() {
+		var problem = document.getElementById("problem");
+		var language = document.getElementById("language");
+		var special = document.getElementById("special");
+		for (var i = 0; i < data.length; i++) {
+			var btn = document.createElement("button");
+			btn.textContent = data[i].name;
+			btn.value = i;
+			btn.addEventListener( 'click', function(){
+				if(this.value !=""){
+			  		chooseTypeEx(this.value, true);
+			  	}
+			} );
+
+			btn.className ="type_ex";
+			var div = document.createElement("div");
+			div.appendChild(btn);
+			if(i < 3){
+				problem.appendChild(div);
+			}else if(i < 10){
+				language.appendChild(div);
+			}else{
+				special.appendChild(div);
+			}
+		}
+});
+
+// choose domain 
+function domain_func(btn){
+	chooseTypeEx(btn.value, false);
+}
+
+//create datatable exercise
+function chooseTypeEx(index, bool_create){
+	document.getElementById("container").style.display  ="none";
+	document.getElementById("container2").style.display  ="block";
+	document.getElementById("container3").style.display  ="none";
+	document.getElementById("tab_ex").textContent = data[index].name;
+	document.getElementById("domain_tab").value = index;
+	if(bool_create){
+		indexx = 1;
+	    $('#example').DataTable( {
+	        data: data[index].exerciseList,
+	        columns: [
+	        	{"data": null,
+	        	 "render": function(data,type,row){ return indexx++;} },
+	            {"data":"name" },
+	            {"data":"level" },
+	            {"data":"max_score" },
+	            { "data": null, 
+	        		"render": function(data,type,row) { return Math.round(data["success_rate"] * 10000)/100 +"%"} },
+	            {"data":"domain_name" },
+	            {"data":"domain_name", 
+	        		render : function(data,type, row) {
+														if (type === 'display') {
+															return '<a onclick="leaderboard(this)" >Leaderboard</a>';
+														}
+														return data;
+													}}
+	        ]
+	    } );
+	     
+	     $('#example tbody').on('click', 'td', function () {
+
+         if ($(this).index() != 6 ) { 
+             	getProblem(index,this.parentElement.children[0].innerHTML);
+         }
+
+                                 
+    });
+   }
+}
+
+//show exercise
+function getProblem(index_ar, index_ex){
+	index_ex--;
+	document.getElementById("container").style.display  ="none";
+	document.getElementById("container2").style.display  ="none";
+	document.getElementById("container3").style.display  ="block";
+	var exercise = data[index_ar].exerciseList[index_ex];
+	document.getElementById("domain_tab").textContent = data[index_ar].name;
+	document.getElementById("domain_tab").value = index_ar;
+	document.getElementById("tab_problem").textContent = data[index_ar].exerciseList[index_ex].name;
+	if(exercise.problem !=""){
+		document.getElementById("problem_tit").innerHTML ="Problem"; 
+	}else{
+		document.getElementById("problem_tit").innerHTML =""; 
+	}
+
+	if(exercise.constraints !=""){
+		document.getElementById("constrainst_tit").innerHTML ="Constrainst"; 
+	}else{
+		document.getElementById("constrainst_tit").innerHTML =""; 
+	}
+	if(exercise.input_format !=""){
+		document.getElementById("input_tit").innerHTML ="Input Format"; 
+	}else{
+		document.getElementById("input_tit").innerHTML =""; 
+	}
+	if(exercise.ouput_format !=""){
+		document.getElementById("output_tit").innerHTML ="Output Format"; 
+	}else{
+		document.getElementById("output_tit").innerHTML =""; 
+	}
+	document.getElementById("problem_dt").innerHTML = exercise.problem; 
+	document.getElementById("constrainst").innerHTML = exercise.constraints; 
+	document.getElementById("input").innerHTML = exercise.input_format; 
+	document.getElementById("output").innerHTML = exercise.ouput_format; 
+	addSample(data[index_ar].exerciseList[index_ex].sampleList);
+}
+
+// add sample to exercise
+function addSample(sampleList){
+	var sample = document.getElementById("show_sample");
+	if (sampleList.length != 0) {
+		sample.textContent ="Show samples";
+		document.getElementById("sample").innerHTML="";
+		document.getElementById("sample").style.display ="none";
+		for (var i = 0; i < sampleList.length; i++) {
+			var strong = document.createElement("strong")
+			strong.innerHTML ="SAMPLE" + (i+1) +":";
+			var strong_ip = document.createElement("strong");
+			strong_ip.innerHTML ="Sample Input";
+			var p_ip = document.createElement("p");
+			p_ip.innerHTML = sampleList[i].sample_input;
+
+			var strong_op = document.createElement("strong");
+			strong_op.innerHTML ="Sample Output";
+			var p_op = document.createElement("p");
+			p_op.innerHTML = sampleList[i].sample_output;
+
+			var strong_ex = document.createElement("strong");
+			strong_ex.innerHTML ="Explanation" ;
+			var p_ex = document.createElement("p");
+			p_ex.innerHTML = sampleList[i].explanation;
+
+			document.getElementById("sample").appendChild(strong);
+			document.getElementById("sample").appendChild(document.createElement("p"));
+			document.getElementById("sample").appendChild(document.createElement("p"));
+			document.getElementById("sample").appendChild(strong_ip);
+			document.getElementById("sample").appendChild(document.createElement("p"));
+			document.getElementById("sample").appendChild(p_ip);
+			document.getElementById("sample").appendChild(document.createElement("p"));
+			document.getElementById("sample").appendChild(document.createElement("p"));
+			document.getElementById("sample").appendChild(strong_op);
+			document.getElementById("sample").appendChild(document.createElement("p"));
+			document.getElementById("sample").appendChild(p_op);
+			document.getElementById("sample").appendChild(document.createElement("p"));
+			document.getElementById("sample").appendChild(document.createElement("p"));
+			document.getElementById("sample").appendChild(strong_ex);
+			document.getElementById("sample").appendChild(document.createElement("p"));
+			document.getElementById("sample").appendChild(p_ex);
+		}
+	}
+
+}
+
+function show_sample(){
+		document.getElementById("sample").style.display ="block";
+		document.getElementById("show_sample").textContent ="";
+}
+
+//return home
+function home(){
+	document.getElementById("container").style.display  ="block";
+	document.getElementById("container2").style.display  ="none";
+	document.getElementById("container3").style.display  ="none";
+	$('#example').DataTable().destroy();
+}
+
+// return domain
+function domain_return(){
+	document.getElementById("container2").style.display  ="block";
+	document.getElementById("container4").style.display  ="none";
+	$('#example2').DataTable().destroy();
+}
+
+//create datatable leader board
+
+function leaderboard(e){
+	var indexOfEx = e.parentElement.parentElement.children[0].innerHTML;
+	var indexOfDomain = document.getElementById("domain_tab").value;
+	document.getElementById("domain2").textContent = data[indexOfDomain].name;
+	document.getElementById("tab_leader").textContent = data[indexOfDomain].exerciseList[indexOfEx-1].name;
+	document.getElementById("container").style.display  ="none";
+	document.getElementById("container2").style.display  ="none";
+	document.getElementById("container3").style.display  ="none";
+	document.getElementById("container4").style.display  ="block";
+	indexx = 1;
+	ldList = data[indexOfDomain].exerciseList[indexOfDomain].user_exList
+	$('#example2').DataTable( {
+	        data: ldList,
+	        columns: [
+	        	{"data": null,
+	        	 "render": function(data,type,row){ return indexx++;} },
+	            {"data":"user.user_name" },
+	            {"data":"user.country" },
+	            {"data":"score" },
+	            { "data":"rank" }
+
+	        ]
+	    } );
+}
+
+
+console.log(data);
+</script>
+</body>
+</html>

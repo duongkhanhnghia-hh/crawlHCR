@@ -1,0 +1,93 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding-bottom: 40px;
+}
+
+.tabcontent2 {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding-bottom: 40px;
+}
+
+.type_ex{
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 80%;
+    display: flex;
+    margin-top: 5px;
+}
+h1{
+    padding: 14px 16px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.domain_type{
+    display: inline-block;
+    width: 33%;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 15px;
+}
+
+.domain_span{
+    margin-left: 20%;
+}
+#example tr {
+    cursor: pointer;
+}
+.odd{
+    background-color: #ffffff;
+}
+.even{
+    background-color: #f1f1f1;;
+}
+.bold_text{
+    font-weight: bolder;
+    font-size: 23px;
+    color: #4680b1;
+}
