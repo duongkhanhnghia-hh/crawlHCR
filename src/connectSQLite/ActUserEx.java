@@ -1,7 +1,5 @@
 package connectSQLite;
 
-import model.Sample;
-import model.User;
 import model.User_Ex;
 
 import java.sql.*;

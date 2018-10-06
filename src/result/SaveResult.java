@@ -3,14 +3,12 @@ package result;
 import connectSQLite.*;
 import model.Domain;
 import model.Exercise;
-import model.User;
 import model.User_Ex;
 import org.codehaus.jackson.map.ObjectMapper;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.List;
 
 public class SaveResult {

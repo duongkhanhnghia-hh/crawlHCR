@@ -21,21 +21,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CrawlExDetail {
-    static ConnectSQLite connection = new ConnectSQLite();
 
-    public static void crawlExDetail(int number){
+    public static void crawlExDetail(){
         System.out.println("Crawling Ex Detail...");
         // get max id in sample table
         int exDetailed = ActSample.getMaxExID();
-        // get list exercisr from max id above to max + number of exercise will crawl
-        System.out.println(ActEx.getExNotDetail().size());
+        // get list exercisr have no detail
         List<Exercise> exerciseList = ActEx.getExNotDetail();
-//        List<Exercise> exerciseList = ActEx.getListExFromTo(exDetailed+1, exDetailed+number+1);
         // create new exercise list and sample list to once save 50/100/... exercise, sample
         List<Exercise> exerciseList_tmp = new ArrayList<>();
         List<Sample> sampleList = new ArrayList<>();
         // get size of exercise list and save will minus
-        number = exerciseList.size();
+        int number = exerciseList.size();
 
         //with a exercise will be crawled detail, add list and save list to database
         for (int i = 0; i < exerciseList.size(); i++) {

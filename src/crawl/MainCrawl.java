@@ -8,20 +8,20 @@ import java.util.List;
 public class MainCrawl {
     public static void main(String[] args) {
         // crawl all domain
-//        CrawlDomain.crawlDomain();
+        CrawlDomain.crawlDomain();
 
         // get all domain
-//        List<Domain> domainList = ActDomain.getAllDomain();
+        List<Domain> domainList = ActDomain.getAllDomain();
 
         // crawl exercise with domain
-//        for (int i = 0; i < domainList.size(); i++){
-//            CrawlExList.getExercise(domainList.get(i));
-//        }
+        for (int i = 0; i < domainList.size(); i++){
+            CrawlExList.getExercise(domainList.get(i));
+        }
 
         // crawl number detail of exercise
-        CrawlExDetail.crawlExDetail(3000);
+        CrawlExDetail.crawlExDetail();
 
         //crawl leader for exercise
-//        CrawlLeaderboard.saveAllLeader();
+        CrawlLeaderboard.saveAllLeader();
     }
 }

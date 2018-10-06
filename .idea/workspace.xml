@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="623ad33a-682e-487c-9deb-0b7429a9e391" name="Default" comment="" />
+    <list default="true" id="623ad33a-682e-487c-9deb-0b7429a9e391" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connectSQLite/ActDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/connectSQLite/ActDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connectSQLite/ActEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/connectSQLite/ActEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connectSQLite/ActUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/connectSQLite/ActUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connectSQLite/ActUserEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/connectSQLite/ActUserEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crawl/CrawlExDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawl/CrawlExDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crawl/CrawlExList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawl/CrawlExList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crawl/CrawlLeaderboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawl/CrawlLeaderboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crawl/MainCrawl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawl/MainCrawl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crawl/SendMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawl/SendMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/result/SaveResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/result/SaveResult.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,37 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CrawlLeaderboard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crawl/CrawlLeaderboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="86" column="60" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SaveResult.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/result/SaveResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2096#2097#0" expanded="true" />
-                <element signature="e#2128#2129#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainCrawl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainCrawl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/crawl/MainCrawl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,23 +47,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/Config.java">
+      <file leaf-file-name="Sample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Sample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="103" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendMethod.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crawl/SendMethod.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+            <state relative-caret-position="126">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getResponse2#0;class#SendMethod#0" />
+                <element signature="method#User#1;class#User#0" />
               </folding>
             </state>
           </provider>
@@ -75,37 +71,34 @@
       <file leaf-file-name="CrawlExDetail.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/crawl/CrawlExDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActEx.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActEx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="187" column="83" selection-start-line="187" selection-start-column="83" selection-end-line="187" selection-end-column="83" />
+            <state relative-caret-position="2207">
+              <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#insertListEx#0;class#ActEx#0" />
-                <element signature="method#getNumberExDBWithDomain#0;class#ActEx#0" />
-                <element signature="method#getMaxExID#0;class#ActEx#0" />
-                <element signature="method#getListExFromTo#0;class#ActEx#0" />
-                <element signature="method#getListEx#0;class#ActEx#0" />
-                <element signature="method#insertExDetail#0;class#ActEx#0" />
-                <element signature="method#getNumExListDetail#0;class#ActEx#0" />
-                <element signature="method#getListExByDomain#0;class#ActEx#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrawlExList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User_Ex.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/User_Ex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+              <folding>
+                <element signature="e#930#931#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrawlExList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/crawl/CrawlExList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+            <state relative-caret-position="42">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,29 +106,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectSQLite.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/connectSQLite/ConnectSQLite.java">
+      <file leaf-file-name="SendMethod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/crawl/SendMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="168">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#getResponse2#0;class#SendMethod#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActUserEx.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActUserEx.java">
+      <file leaf-file-name="Domain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Domain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            <state relative-caret-position="399">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#insert_user_ex#0;class#ActUserEx#0" />
-                <element signature="method#getUserExListByExID#0;class#ActUserEx#0" />
-                <element signature="method#getMaxExIDOfUserEx#0;class#ActUserEx#0" />
+                <element signature="method#Domain#0;class#Domain#0" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exercise.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Exercise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1113">
+              <caret line="53" column="190" selection-start-line="53" selection-start-column="190" selection-end-line="53" selection-end-column="190" />
             </state>
           </provider>
         </entry>
@@ -209,21 +213,21 @@
         <option value="$PROJECT_DIR$/src/model/output.java" />
         <option value="$PROJECT_DIR$/src/model/Domain.java" />
         <option value="$PROJECT_DIR$/src/model/Exercise.java" />
-        <option value="$PROJECT_DIR$/src/connectSQLite/ActDomain.java" />
         <option value="$PROJECT_DIR$/src/connectSQLite/ActSample.java" />
-        <option value="$PROJECT_DIR$/src/connectSQLite/ActUser.java" />
-        <option value="$PROJECT_DIR$/src/connectSQLite/ActUserEx.java" />
         <option value="$PROJECT_DIR$/src/connectSQLite/ConnectSQLite.java" />
         <option value="$PROJECT_DIR$/src/crawl/CrawlDomain.java" />
+        <option value="$PROJECT_DIR$/src/connectSQLite/sss.java" />
+        <option value="$PROJECT_DIR$/src/config/Config.java" />
+        <option value="$PROJECT_DIR$/src/connectSQLite/ActDomain.java" />
+        <option value="$PROJECT_DIR$/src/connectSQLite/ActEx.java" />
+        <option value="$PROJECT_DIR$/src/connectSQLite/ActUser.java" />
+        <option value="$PROJECT_DIR$/src/connectSQLite/ActUserEx.java" />
         <option value="$PROJECT_DIR$/src/crawl/CrawlExList.java" />
         <option value="$PROJECT_DIR$/src/crawl/CrawlLeaderboard.java" />
         <option value="$PROJECT_DIR$/src/crawl/SendMethod.java" />
         <option value="$PROJECT_DIR$/src/result/SaveResult.java" />
-        <option value="$PROJECT_DIR$/src/config/Config.java" />
-        <option value="$PROJECT_DIR$/src/connectSQLite/sss.java" />
-        <option value="$PROJECT_DIR$/src/crawl/MainCrawl.java" />
         <option value="$PROJECT_DIR$/src/crawl/CrawlExDetail.java" />
-        <option value="$PROJECT_DIR$/src/connectSQLite/ActEx.java" />
+        <option value="$PROJECT_DIR$/src/crawl/MainCrawl.java" />
       </list>
     </option>
   </component>
@@ -233,7 +237,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="419" />
     <option name="y" value="157" />
     <option name="width" value="1378" />
@@ -245,12 +249,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="HackerRankCrawl" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackerRankCrawl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackerRankCrawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackerRankCrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HackerRankCrawl" type="b2602c69:ProjectViewProjectNode" />
@@ -267,7 +278,25 @@
               <item name="HackerRankCrawl" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackerRankCrawl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="connectSQLite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackerRankCrawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackerRankCrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="crawl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackerRankCrawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackerRankCrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackerRankCrawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackerRankCrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HackerRankCrawl" type="b2602c69:ProjectViewProjectNode" />
@@ -282,15 +311,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jackson-all-1.9.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestTeko/crawlHCR" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -465,15 +492,17 @@
       <workItem from="1538699249893" duration="8028000" />
       <workItem from="1538708669924" duration="2732000" />
       <workItem from="1538716834624" duration="11815000" />
-      <workItem from="1538750829387" duration="13630000" />
+      <workItem from="1538750829387" duration="14597000" />
+      <workItem from="1538783161803" duration="714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119425000" />
+    <option name="totallyTimeSpent" value="121106000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -485,11 +514,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946293" visible="true" weight="0.26848692" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946293" visible="true" weight="0.26848692" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20515575" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20784102" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973147" />
@@ -531,6 +560,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/crawl/CrawlExList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
@@ -558,9 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
           <caret line="51" column="101" selection-start-line="51" selection-start-column="101" selection-end-line="51" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,7 +613,6 @@
           <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getConnection#0;class#ConnectSQLite#0" />
           </folding>
         </state>
       </provider>
@@ -588,17 +623,12 @@
           <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#getResponse2#0;class#SendMethod#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4473">
-          <caret line="225" column="55" selection-start-line="225" selection-start-column="55" selection-end-line="225" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/crawl/CrawlExDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -627,9 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="26" column="66" lean-forward="true" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,7 +673,6 @@
           <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getConnection#0;class#ConnectSQLite#0" />
           </folding>
         </state>
       </provider>
@@ -657,17 +683,12 @@
           <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#getResponse2#0;class#SendMethod#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4368">
-          <caret line="219" column="60" lean-forward="true" selection-start-line="219" selection-start-column="7" selection-end-line="219" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/crawl/CrawlExDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -675,13 +696,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3738">
-          <caret line="189" column="70" selection-start-line="189" selection-start-column="70" selection-end-line="189" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/model/Exercise.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -716,18 +731,11 @@
           <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getConnection#0;class#ConnectSQLite#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -735,27 +743,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2331">
-          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -771,6 +761,120 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/output.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/config/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <element signature="method#insertDomainList#0;class#ActDomain#0" />
+            <element signature="method#getAllDomain#0;class#ActDomain#0" />
+            <element signature="method#getAllDomainAndEx#0;class#ActDomain#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="method#insertListEx#0;class#ActEx#0" />
+            <element signature="method#getNumberExDBWithDomain#0;class#ActEx#0" />
+            <element signature="method#getMaxExID#0;class#ActEx#0" />
+            <element signature="method#getListExFromTo#0;class#ActEx#0" />
+            <element signature="method#getListEx#0;class#ActEx#0" />
+            <element signature="method#insertExDetail#0;class#ActEx#0" />
+            <element signature="method#getNumExListDetail#0;class#ActEx#0" />
+            <element signature="method#getListExByDomain#0;class#ActEx#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insertListSample#0;class#ActSample#0" />
+            <element signature="method#getMaxExID#0;class#ActSample#0" />
+            <element signature="method#getSampleListByExID#0;class#ActSample#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insertListUser#0;class#ActUser#0" />
+            <element signature="method#checkUserInDB#0;class#ActUser#0" />
+            <element signature="method#getUserByUserID#0;class#ActUser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActUserEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insert_user_ex#0;class#ActUserEx#0" />
+            <element signature="method#getUserExListByExID#0;class#ActUserEx#0" />
+            <element signature="method#getMaxExIDOfUserEx#0;class#ActUserEx#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ConnectSQLite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawl/CrawlDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawl/CrawlLeaderboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawl/SendMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getResponse2#0;class#SendMethod#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Domain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -787,7 +891,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Exercise.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
+        <state relative-caret-position="1113">
           <caret line="53" column="190" selection-start-line="53" selection-start-column="190" selection-end-line="53" selection-end-column="190" />
         </state>
       </provider>
@@ -811,7 +915,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/User_Ex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="672">
           <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
           <folding>
             <element signature="e#930#931#0" expanded="true" />
@@ -821,153 +925,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#insertDomainList#0;class#ActDomain#0" />
-            <element signature="method#getAllDomain#0;class#ActDomain#0" />
-            <element signature="method#getAllDomainAndEx#0;class#ActDomain#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#insertListSample#0;class#ActSample#0" />
-            <element signature="method#getMaxExID#0;class#ActSample#0" />
-            <element signature="method#getSampleListByExID#0;class#ActSample#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#insertListUser#0;class#ActUser#0" />
-            <element signature="method#checkUserInDB#0;class#ActUser#0" />
-            <element signature="method#getUserByUserID#0;class#ActUser#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawl/CrawlDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/result/SaveResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2096#2097#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/Config.java">
+    <entry file="file://$PROJECT_DIR$/src/crawl/CrawlExList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="103" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawl/CrawlLeaderboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="86" column="60" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/connectSQLite/sss.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActUserEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#insert_user_ex#0;class#ActUserEx#0" />
-            <element signature="method#getUserExListByExID#0;class#ActUserEx#0" />
-            <element signature="method#getMaxExIDOfUserEx#0;class#ActUserEx#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ConnectSQLite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawl/SendMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getResponse2#0;class#SendMethod#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/connectSQLite/ActEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="187" column="83" selection-start-line="187" selection-start-column="83" selection-end-line="187" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#insertListEx#0;class#ActEx#0" />
-            <element signature="method#getNumberExDBWithDomain#0;class#ActEx#0" />
-            <element signature="method#getMaxExID#0;class#ActEx#0" />
-            <element signature="method#getListExFromTo#0;class#ActEx#0" />
-            <element signature="method#getListEx#0;class#ActEx#0" />
-            <element signature="method#insertExDetail#0;class#ActEx#0" />
-            <element signature="method#getNumExListDetail#0;class#ActEx#0" />
-            <element signature="method#getListExByDomain#0;class#ActEx#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawl/MainCrawl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="42">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -976,15 +944,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crawl/CrawlExDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        <state relative-caret-position="2207">
+          <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawl/CrawlExList.java">
+    <entry file="file://$PROJECT_DIR$/src/crawl/MainCrawl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

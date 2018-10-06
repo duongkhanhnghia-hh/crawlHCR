@@ -1,8 +1,6 @@
 package connectSQLite;
 
 import model.Exercise;
-import model.User_Ex;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Iterator;

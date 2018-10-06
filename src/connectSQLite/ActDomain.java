@@ -1,7 +1,6 @@
 package connectSQLite;
 
 import model.Domain;
-import model.Sample;
 
 import java.sql.*;
 import java.util.ArrayList;

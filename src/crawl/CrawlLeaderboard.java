@@ -4,7 +4,6 @@ import config.Config;
 import connectSQLite.ActEx;
 import connectSQLite.ActUser;
 import connectSQLite.ActUserEx;
-import connectSQLite.ConnectSQLite;
 import model.Exercise;
 import model.User;
 import model.User_Ex;
