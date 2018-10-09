@@ -36,7 +36,6 @@ public class ActEx {
             System.out.println("Saving Exercise success!");
             return true;
         } catch (SQLException e) {
-            e.printStackTrace();
             System.out.println("Saving Exercise faild!");
             return false;
         }
@@ -50,7 +49,7 @@ public class ActEx {
             ResultSet rs = statement.executeQuery(sql)){
             return  rs.getInt("COUNT(*)");
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get number ex  with domain failed: " + domain);
         }
         return 0;
     }
@@ -63,7 +62,7 @@ public class ActEx {
             ResultSet rs = statement.executeQuery(sql)){
             return  rs.getInt("id");
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get Max Ex_Id failed");
         }
         return 0;
     }
@@ -82,7 +81,7 @@ public class ActEx {
             }
             return exerciseList;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get List Ex from " + start + " to " + end + " failed");
         }
         return null;
     }
@@ -101,7 +100,7 @@ public class ActEx {
             }
             return exerciseList;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get Lisr Ex failed");
         }
         return null;
     }
@@ -127,7 +126,6 @@ public class ActEx {
             System.out.println("Saving Ex_Detail Successed");
             return true;
         } catch (SQLException e) {
-            e.printStackTrace();
             System.out.println("Saving Ex_Detail Failed");
             return false;
         }
@@ -154,7 +152,7 @@ public class ActEx {
             }
             return exerciseList;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get List Detail Ex to " + num + "failed");
         }
         return null;
     }
@@ -176,7 +174,7 @@ public class ActEx {
             }
             return exerciseList;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("get List Ex By domain " + domain_name + " failed");
         }
         return null;
     }
@@ -195,7 +193,7 @@ public class ActEx {
             }
             return exerciseList;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get List Ex don't have detail failed");
         }
         return null;
     }

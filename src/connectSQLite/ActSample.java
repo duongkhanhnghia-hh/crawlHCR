@@ -29,7 +29,6 @@ public class ActSample {
             System.out.println("Saving sample Successed");
             return true;
         } catch (SQLException e) {
-            e.printStackTrace();
             System.out.println("Saving sample Failed");
             return false;
         }
@@ -47,12 +46,12 @@ public class ActSample {
                 return -1;
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get Max Ex_Id in Sample failed");
         }
         return -1;
     }
 
-    // get list of sample by exercise id
+    // get list of sample bay exercise id
     public static List<Sample> getSampleListByExID(int ex_id){
         String sql = "SELECT * FROM Sample WHERE ex_id =" + ex_id;
         List<Sample> sampleList = new ArrayList<>();
@@ -67,7 +66,7 @@ public class ActSample {
             }
             return  sampleList;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get Sample List failed: " + ex_id);
         }
         return null;
     }

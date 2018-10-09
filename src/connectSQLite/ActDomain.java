@@ -28,7 +28,7 @@ public class ActDomain {
             return true;
         } catch (SQLException e) {
             e.printStackTrace();
-            System.out.println("Saving domain Failed");
+            System.out.println("Saving domain failed");
             return false;
         }
     }
@@ -47,7 +47,7 @@ public class ActDomain {
             }
             return  domainList;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get all domain failed");
         }
         return null;
     }
@@ -66,7 +66,7 @@ public class ActDomain {
             }
             return  domainList;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get all domain and ex failed");
         }
         return null;
     }

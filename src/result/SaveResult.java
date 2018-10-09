@@ -60,7 +60,7 @@ public class SaveResult {
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Save Result failed.");
         }
     }
 

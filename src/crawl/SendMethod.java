@@ -27,7 +27,7 @@ public class SendMethod {
             }
             return response.toString();
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Get response failed: " + url_st);
         }
         return "";
     }

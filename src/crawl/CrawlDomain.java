@@ -32,7 +32,7 @@ public class CrawlDomain {
             Boolean result = ActDomain.insertDomainList(domainList);
             System.out.println("Save domain: " + result);
         }catch (Exception e){
-
+            System.out.println("Get Domain failed");
         }
     }
 

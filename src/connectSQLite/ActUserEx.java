@@ -51,7 +51,6 @@ public class ActUserEx {
             System.out.println("Saving User_EX Successed");
             return true;
         } catch (SQLException e) {
-            e.printStackTrace();
             System.out.println("Saving User_EX Failed");
             return false;
         }
@@ -72,7 +71,7 @@ public class ActUserEx {
             }
             return  userExList;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get user by ex_id failed: " + ex_id);
         }
         return null;
     }
@@ -90,7 +89,7 @@ public class ActUserEx {
             }
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get Max Ex_id in User_Ex failed");
         }
         return -1;
     }

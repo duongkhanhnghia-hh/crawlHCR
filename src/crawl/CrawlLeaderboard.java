@@ -28,7 +28,7 @@ public class CrawlLeaderboard {
             int total = Integer.parseInt(jsonObject.get("total").toString());
             return total;
         } catch (JSONException e) {
-            e.printStackTrace();
+            System.out.println("Get total leader failed: " + ex_name);
         }
         return 0;
     }
@@ -92,7 +92,7 @@ public class CrawlLeaderboard {
             }
             return "";
         } catch (JSONException e) {
-            e.printStackTrace();
+            System.out.println("Get all leader failed: " + slug);
         }
         return "";
     }

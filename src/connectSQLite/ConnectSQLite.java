@@ -13,7 +13,7 @@ public class ConnectSQLite {
         try {
             connection = DriverManager.getConnection(url);
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get connection SQLite failed: " + Config.URL_SQLite);
         }
         return  connection;
     }

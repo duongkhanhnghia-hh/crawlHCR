@@ -35,7 +35,6 @@ public class ActUser {
             System.out.println("Saving User Successed");
             return  userList;
         } catch (SQLException e) {
-            e.printStackTrace();
             System.out.println("Saving User Failed");
         }
         return  null;
@@ -52,7 +51,7 @@ public class ActUser {
             }
             return rs.getInt("user_id");
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Check user_name failed: " + username);
         }
         return -1;
     }
@@ -68,7 +67,7 @@ public class ActUser {
                             rs.getString("country"));
             return  user;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Get User by id failed: " + id);
         }
         return null;
     }

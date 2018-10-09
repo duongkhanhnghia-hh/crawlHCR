@@ -25,7 +25,7 @@ public class CrawlExList {
             int total = Integer.parseInt(jsonObject.get("total").toString());
             return total;
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Get Total Ex failed: " + domain);
         }
         return 0;
     }
@@ -79,7 +79,7 @@ public class CrawlExList {
             }
             System.out.println("Crawl Complete");
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Crawl failed: " + domain);
         }
     }
 
