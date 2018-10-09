@@ -10,12 +10,12 @@
 # Luồng ứng dụng:
 - Crawl danh sách bài tập, đề bài, leaderboard lưu vào sqlite vì dữ liệu lớn nên hiện tại em chỉ crawl 100 leaderboard đầu tiền cho mỗi bài tập
 - Xuất dữ liệu từ database ra file data.js dưới dạng json và gán cho biến data
-- Sử dụng javascript, html xây dựng view lấy dữ liệu từ biến data
+- Sử dụng javascript, html xây dựng view, lấy dữ liệu từ biến data
 
 # Database
 - Database gồm 5 bảng: Domain, Exercise, Sample, User, User_Ex
-- Dữ liệu đã crawl có data lưu trong file hcr_fullData.db và nén thành hcr_fullData.zip
-- Database mới để test crawl: hcr_noData.db
+- Dữ liệu đã crawl lưu trong file hcr_fullData.db và nén thành hcr_fullData.zip
+- Dữ liệu để test crawl lưu trong file hcr_noData.db
 
 # Cách chạy phần View:
 - Giải nén data.zip và copy file data.js vào thư mục view
