@@ -18,7 +18,7 @@
 - Dữ liệu để test crawl lưu trong file hcr_noData.db
 
 # Cách chạy phần View:
-- Giải nén data.zip và copy file data.js vào thư mục view
+- Giải nén view/data.zip và copy file data.js vào thư mục view
 - Chạy file CrawlView.html trong thư mục view
 
 # Cách chạy phần Crawl:
